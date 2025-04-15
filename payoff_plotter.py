@@ -3,6 +3,7 @@ matplotlib.use('Agg')  # Add this line
 import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
+import pandas as pd
 
 def plot_payoff(pnl_data, strategy_name):
     x = np.linspace(pnl_data['lower'], pnl_data['upper'], 100)
