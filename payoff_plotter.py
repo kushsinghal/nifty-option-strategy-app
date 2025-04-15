@@ -1,7 +1,6 @@
 import matplotlib
-matplotlib.use('Agg')  # Add this line
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import streamlit as st
 import numpy as np
 import pandas as pd
 
